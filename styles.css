@@ -17,7 +17,7 @@ ul#etudiants {
 
 ul#etudiants li.etudiant {
     width: 19%; 
-    background: #eee;
+
     display: block; 
     width: 20%; 
     height: 5rem;
@@ -28,8 +28,10 @@ ul#etudiants li.etudiant {
 ul#etudiants li.etudiant a span {display: block;margin-bottom: .25rem}
 ul#etudiants li.etudiant a {
     text-decoration: none;
+    background: #eee;
     display:block;
     padding-top: 1rem;
+    height: 100%;
 }
 ul#etudiants li.etudiant a:hover {
     background: cyan;
