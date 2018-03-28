@@ -7,3 +7,4 @@
 }
 ul#etudiants {display: flex;
     justify-content: space-between;}
+ul#etudiants li.etudiant {width: 20%; background: #eee;}
