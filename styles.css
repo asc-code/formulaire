@@ -4,7 +4,12 @@
     color: black;
     background: white;
     line-height: 1.5rem;
+    box-sizing:border-box
 }
 ul#etudiants {display: flex;
-    justify-content: space-between;flex-wrap: wrap}
-ul#etudiants li.etudiant {width: 20%; background: #eee;display: block; width: 20%}
+    justify-content: space-between;flex-wrap: wrap; margin: 1rem;}
+ul#etudiants li.etudiant {width: 19%; background: #eee;display: block; width: 20%; height: 5rem;margin-bottom: 1rem;}
+ul#etudiants li.etudiant a span.name {}
+ul#etudiants li.etudiant a span.firstname {}
+ul#etudiants li.etudiant a {}
+
