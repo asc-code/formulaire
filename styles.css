@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     color: black;
-    background: white;
+    
     line-height: 1.5rem;
     box-sizing:border-box;
     font-family: Helvetica,Arial;
 }
+body {background: white;}
+
 ul#etudiants {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
     margin: 1rem;}
+
 ul#etudiants li.etudiant {
     width: 19%; 
     background: #eee;
@@ -20,10 +23,15 @@ ul#etudiants li.etudiant {
     height: 5rem;
     margin-bottom: 1rem;
     text-align: center;
-padding-top: 2rem;}
-ul#etudiants li.etudiant a span.name {}
-ul#etudiants li.etudiant a span.firstname {}
+}
+
+ul#etudiants li.etudiant a span {display: block;margin-bottom: .25rem}
 ul#etudiants li.etudiant a {
     text-decoration: none;
-    display:block;}
-
+    display:block;
+    padding-top: 1rem;
+}
+ul#etudiants li.etudiant a:hover {
+    background: cyan;
+    color: white
+}
