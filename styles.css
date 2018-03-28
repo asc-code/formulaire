@@ -16,10 +16,9 @@ ul#etudiants {
     margin: 1rem;}
 
 ul#etudiants li.etudiant {
-    width: 19%; 
+    width: 33%; 
 
     display: block; 
-    width: 20%; 
     height: 5rem;
     margin-bottom: 1rem;
     text-align: center;
